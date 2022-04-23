@@ -61,10 +61,10 @@
 </head>
 
 <body style="font-family: 'Montserrat', sans-serif;">
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background-color: #D52625; color: #FFE100;">
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background-color: #fff; color: #D52625;">
         <div class="container-fluid">
-            <a class="navbar-brand text-light" href="index.html" style="font-weight: bolder;">Science and Me</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <a class="navbar-brand" href="index.html" style="font-weight: bolder; color: #D52625;">Science and Me</a>
+            <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
       				<span class="navbar-toggler-icon"></span>
     			</button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
@@ -80,23 +80,28 @@
                     <a href="login.html" style="text-decoration: none;"><button class="btn btn-primary me-md-2 essential-btn " type="button ">LOGIN </button></a>
                     <a href="signup.html" style="text-decoration: none;"><button class="btn btn-primary essential-btn " type="button ">SIGN UP</button></a>
                 </div>
-            </div>
+            </div> -->
         </div>
     </nav>
-    <div class="img-fluid banner text-light ">
-        <h1 style="color: #FFE100; ">You are a Queen</h1>
-        <h6>Want your picture here, get more stars from mentors</h6>
-    </div>
-    <div class="text-center text-light advice ">
-        <h1>Mentorship</h1><br>
-        <p>Get advice, comments and inspiration from women all around the world, who have excelled in science and are still excelling in science, through our mentorship program. Go to
-            <a style="color: #FFE100; text-decoration: none; " href="mentors.html ">mentors</a> page to get more information about our program.</p>
-    </div>
-    <div class="text-center text-dark game ">
-        <h1>Games</h1><br>
-        <h6>Hey! Do you want to relax with some refreshing games? Exciting!! Go to <a style="color: #D52625; text-decoration: none; " href="games_and_fun.html ">games and fun</a> page to get more information about our games.
-        </h6>
-    </div>
+    <form style="padding: 8% 30% 12.5% 30%;">
+        <h1 class="h3 mb-3 font-weight-normal">Login</h1>
+        <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+        </div>
+        <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword1">
+        </div>
+        <div class="mb-3 form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">Remember me</label>
+        </div>
+        <p>Need an account?
+            <a href="signup.html" style="text-decoration: none; color:#D52625">Sign Up</a></p>
+        <button type="submit" class="btn btn-success">LOGIN</button>
+    </form>
     <footer class="footer down ">
         <div class="container ">
             <span>Copyright 2022 Science and Me</span>

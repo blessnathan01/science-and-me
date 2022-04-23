@@ -26,13 +26,13 @@
         }
         
         .banner {
-            background: url(images/img-3.jpg);
+            background: url(images/img-4.jpg);
             background-repeat: no-repeat;
             background-size: auto;
             width: 100%;
             height: 50%;
-            padding: 21.2% 10% 24.2% 10%;
-            text-align: right;
+            padding: 21.2% 30% 24.2% 10%;
+            text-align: left;
         }
         
         .advice {
@@ -40,7 +40,8 @@
             background-color: #D52625;
         }
         
-        .game {
+        .game,
+        .about {
             padding: 5% 15% 5% 15%;
             background-color: #fff;
         }
@@ -54,6 +55,11 @@
         
         #active {
             color: #FFE100;
+        }
+        
+        .contact {
+            padding: 5% 15% 2% 15%;
+            background-color: #fff;
         }
     </style>
 
@@ -69,11 +75,11 @@
     			</button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav text-center">
-                    <a class=" nav-link " aria-current="page " id="active" href="index.html">Home</a>
+                    <a class=" nav-link text-light" aria-current="page " href="index.html">Home</a>
                     <a class=" nav-link text-light " href="mentors.html ">Mentors</a>
                     <a class=" nav-link text-light " href="games_and_fun.html ">Games & Fun</a>
-                    <a class=" nav-link text-light " href="about_us.html ">About Us</a>
-                    <a class="nav-link text-light " href="contact_us.html ">Contact Us</a>
+                    <a class=" nav-link text-light" href="about_us.html ">About Us</a>
+                    <a class="nav-link" id="active" href="contact_us.html ">Contact Us</a>
                 </div>
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 <div class="d-grid gap-2 d-md-flex justify-content-md-end ">
@@ -83,20 +89,28 @@
             </div>
         </div>
     </nav>
-    <div class="img-fluid banner text-light ">
-        <h1 style="color: #FFE100; ">You are a Queen</h1>
-        <h6>Want your picture here, get more stars from mentors</h6>
+    <div class="text-center text-dark contact ">
+        <h1>Contact Us</h1><br>
+        <h6>Get in touch with us. Call us via
+            <a href="tel:+255744758583" style="text-decoration: none; color:#D52625"> +255(0) 744 758 583</a> or email us via
+            <a href="mailto:lovelygroup@gmail.com" style="text-decoration: none; color:#D52625"> lovelygroup@gmail.com</a>
+        </h6>
     </div>
-    <div class="text-center text-light advice ">
-        <h1>Mentorship</h1><br>
-        <p>Get advice, comments and inspiration from women all around the world, who have excelled in science and are still excelling in science, through our mentorship program. Go to
-            <a style="color: #FFE100; text-decoration: none; " href="mentors.html ">mentors</a> page to get more information about our program.</p>
-    </div>
-    <div class="text-center text-dark game ">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3961.711961417287!2d39.20251521449872!3d-6.804851368446197!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x185c492e6e692407%3A0x1d0948a942b8492e!2sUbungo%20Islamic%20High%20School%2C%20Dar%20es%20Salaam!5e0!3m2!1sen!2stz!4v1650681175461!5m2!1sen!2stz"
+        width="100%" height="510" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <!-- <div class="img-fluid banner text-light ">
+        <h1 style="color: #FFE100; ">About Us</h1>
+        <p>We are the Lovely group from Ubungo Islamic High School who got an opportunity to make this website for you through the SmartGirls Program brought to us by UNICEF Tanzania and other sponsors.</p>
+    </div> -->
+    <!-- <div class="text-center text-dark about ">
+        <h1>About Us</h1><br>
+        <p>We are the Lovely group from Ubungo Islamic High School who got an opportunity to make this website for you through the SmartGirls Program brought to us by UNICEF Tanzania and other sponsors.</p>
+    </div> -->
+    <!-- <div class="text-center text-dark game ">
         <h1>Games</h1><br>
         <h6>Hey! Do you want to relax with some refreshing games? Exciting!! Go to <a style="color: #D52625; text-decoration: none; " href="games_and_fun.html ">games and fun</a> page to get more information about our games.
         </h6>
-    </div>
+    </div> -->
     <footer class="footer down ">
         <div class="container ">
             <span>Copyright 2022 Science and Me</span>
